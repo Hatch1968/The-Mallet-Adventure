@@ -1,0 +1,59 @@
+@font-face		{font-family: 'OFL Sorts Mill Goudy TT'; font-style: normal; font-weight: normal;
+			 src:	local('OFL Sorts Mill Goudy TT'), local('OFLGoudyStMTT'),
+				url('OFL_Sorts_Mill_Goudy_TT/OFLGoudyStMTT.ttf') format('truetype');}
+@font-face		{font-family: 'OFL Sorts Mill Goudy TT'; font-style: italic; font-weight: normal;
+			 src:	local('OFL Sorts Mill Goudy Italic TT'), local('OFLGoudyStMTT-Italic'),
+				url('OFL_Sorts_Mill_Goudy_TT/OFLGoudyStMTT-Italic.ttf') format('truetype');}
+
+html			{font: normal 16px/20px "OFL Sorts Mill Goudy TT", "Palatino", Georgia, serif; text-align: justify;
+			 background: #eee;}
+body			{width: 660px; margin: 20px auto 300px;}
+
+#notice			{color: #888; padding: 0 20px 0;}
+
+section			{display: block;}
+
+section>header		{display: block; height: 20px; margin-bottom: 40px; border-bottom: 1px solid black;
+			 font-size: 13px;}
+section header hgroup *	{margin: 0; padding: 0; font: inherit !important;}
+section header h1	{float: right;}
+section header h2	{float: left;}
+
+.page			{min-height: 860px; margin: 20px 0; padding: 20px;
+			 -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,.4);
+			    -moz-box-shadow: 5px 5px 15px rgba(0,0,0,.4);
+			         box-shadow: 5px 5px 15px rgba(0,0,0,.4);
+			 background: white;}
+
+.sup			{line-height: 20px; font-size: 18px; letter-spacing: .3em;
+			 text-transform: uppercase; text-align: center;}
+section>h1		{margin: 20px 0; padding: 20px 0;
+			 border: double black; border-width: 6px 0;
+			 line-height: 40px; text-align: center;}
+p.sub			{text-align: center; font-style: italic; font-size: 18px;}
+
+section>h2		{margin: 100px 0; line-height: 40px; text-align: center;}
+.sup+h2			{margin-top: 0;}
+
+p			{margin: 0 0 20px 0; padding; 0}
+
+p.center		{text-align: center;}
+
+blockquote		{margin: 0; padding: 0 40px;}
+
+samp, code, kbd,
+ blockquote		{font: 14px/20px monospace, monospace;}
+
+
+/* ====================================================================================================================== */
+
+label			{font: 22px/20px monospace, monospace;}
+#q			{width: 560px; height: 20px; margin: 0; padding: 5px; border: 0;
+			 font: 18px monospace, monospace; vertical-align: middle;}
+#q:hover		{background-color: #eee;}
+#q:focus		{outline: none !important;}
+
+#enter			{display: none;}
+
+
+#copyright		{text-align: center; color: #888;}
